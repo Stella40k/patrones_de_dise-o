@@ -10,6 +10,9 @@
 // const  Cuaderno  =  fábrica . crearEquipo ( "Notebook" ,  "Dell XPS" ,  "16GB" ,  "i7" ) ; 
 // consola . log ( Cuaderno.detalles ( ) ) ;​​ // Tipo: Notebook, Nombre: Dell XPS, RAM: 16GB, Pr
 
+
+//CLASE MADRE
+
 //creo el molde del equipo
 //las clases abstractas son como moldes o plantillas q no se puden usar para crear objetos directamente
 //sirve como base para q oreas clases hereden lo de ella
@@ -34,6 +37,14 @@ abstract class Equipo{
     //aca HEREDAN sus hijas 
     abstract detalles(): string;
 }
+
+//CLASE EQUIPO
+
+//son clases especificas, cuando la consigna hable de clases especificas debo saber q habla de clases abstractas madres e hijos 
+//q heredan lo de la madre
+
+//creo clases especificas para cada tipo de equipo
+//la palabra extend dice "yo pertenezco a tal familia"en este caso, a la familia Equipo
 
 class EquipoFactory{
     //lo q v dentro de los () SON PARAMETROS/ARGUMENTOS
