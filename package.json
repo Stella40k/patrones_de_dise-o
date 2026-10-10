@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx"
+    "ej1": "tsx ejercicio1.ts",
+    "ej2": "tsx ejercicio2.ts"
   },
   "repository": {
     "type": "git",
