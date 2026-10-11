@@ -52,12 +52,12 @@ class Inventario {
 
 //prueba
 const inventario = Inventario.obtenerInstancia();
-inventario.agregarEquipo("Notebook HP", "Portátil", "disponible");
+inventario.agregarEquipo("Notebook HP", "Portatil", "disponible");
 console.log(inventario.listarEquipos());
 
 //comprobar ambas referencias al mismo objeto en memoria
 const inventario2 = Inventario.obtenerInstancia();
-inventario2.agregarEquipo('Monitor Dell 24"', "Periférico", "en reparación");
+inventario2.agregarEquipo('Monitor Dell 24"', "Periferico", "en reparacion");
 
 console.log("Es la misma instancia?: ", inventario === inventario2);
 console.log(inventario.listarEquipos());

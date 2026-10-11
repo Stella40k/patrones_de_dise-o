@@ -6,7 +6,8 @@
   "scripts": {
     "ej1": "tsx ejercicio1.ts",
     "ej2": "tsx ejercicio2.ts",
-    "ej3": "tsx ejercicio3.ts"
+    "ej3": "tsx ejercicio3.ts",
+    "ej4": "tsx ejercicio4.ts"
   },
   "repository": {
     "type": "git",
